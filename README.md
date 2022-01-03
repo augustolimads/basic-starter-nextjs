@@ -30,7 +30,3 @@
 
 - Linkedin - [@augustolimads](https://www.linkedin.com/in/augustolimads/)
 - Twitter - [@augustolimads](https://twitter.com/augustolimads)
-
----
-
-[⬆ Back to the Top](#Project-Name)<br>
