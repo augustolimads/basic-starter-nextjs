@@ -4,7 +4,7 @@
 
 ## Overview
 
-- With basic CSS modules
+- Stilyze With TailwindCSS
 - Supported Hooks or Redux
 - supported with Eslint, Prettier and automated test for to ensure better security
 - You can generate components using plop
@@ -13,7 +13,7 @@
 
 - React with hooks
 - NextJS
-- Styled-components
+- TailwindCSS
 - Typescript
 
 ## How to run this project
