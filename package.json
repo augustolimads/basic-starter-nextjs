@@ -22,6 +22,7 @@
     "react-icons": "^4.3.1",
     "react-redux": "^7.2.6",
     "react-toastify": "^8.1.1",
+    "slugify": "^1.6.5",
     "uuid": "^8.3.2",
     "yup": "^0.32.11"
   },

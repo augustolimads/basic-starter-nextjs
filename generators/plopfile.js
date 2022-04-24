@@ -11,25 +11,25 @@ module.exports = (plop) => {
     actions: [
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}Component/index.tsx',
+        path: '../src/components/{{pascalCase name}}/index.tsx',
         templateFile: 'templates/Component.tsx.hbs'
       }
     ]
   }),
-    plop.setGenerator('template', {
-      description: 'Create a template',
+    plop.setGenerator('page', {
+      description: 'Create a page',
       prompts: [
         {
           type: 'input',
           name: 'name',
-          message: 'What is your template name?'
+          message: 'What is your page name?'
         }
       ],
       actions: [
         {
           type: 'add',
-          path: '../src/templates/{{pascalCase name}}Template/index.tsx',
-          templateFile: 'templates/Template.tsx.hbs'
+          path: '../src/pages/{{pascalCase name}}.tsx',
+          templateFile: 'templates/Page.tsx.hbs'
         }
       ]
     })
