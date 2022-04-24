@@ -1,8 +1,11 @@
 import type { NextPage } from 'next'
-import { HomeTemplate } from 'src/templates/HomeTemplate'
 
 const Home: NextPage = () => {
-  return <HomeTemplate />
+  return (
+    <div>
+      <h1>HomeTemplate</h1>
+    </div>
+  )
 }
 
 export default Home

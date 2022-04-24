@@ -1,14 +1,14 @@
+import type { NextPage } from 'next'
 import { useSelector, useDispatch } from 'react-redux'
 import { useCounter } from 'src/hooks/Counter'
 import { RootState } from 'src/store'
 import { decrement as minus, increment as plus } from 'src/store/counter.store'
 
-export const HooksReduxTemplate = () => {
+const HooksRedux: NextPage = () => {
   const { counter, increment, decrement } = useCounter()
 
   const count = useSelector((state: RootState) => state.counter.value)
   const dispatch = useDispatch()
-
   return (
     <div>
       <h1>Hooks & Redux</h1>
@@ -32,3 +32,5 @@ export const HooksReduxTemplate = () => {
     </div>
   )
 }
+
+export default HooksRedux
